@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  padding: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  padding: 5%;
+  background-color: #ffffff;
+}
+.feedback-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emoji-icon {
+  height: 80px;
+}
+.emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
